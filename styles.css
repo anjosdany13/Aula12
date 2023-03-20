@@ -1,0 +1,103 @@
+.gradiente {
+    padding: 20px;
+    border: 1px solid black;
+    background-image: linear-gradient(to bottom, red, yellow);
+    }
+
+    .aula12 {
+        padding: 20px;
+        border: 1px solid black;
+        background-image: linear-gradient(to right, red, yellow);
+    }
+
+    .animação {
+    padding: 20px;
+    border: 1px solid black;
+    background-image: linear-gradient(to left, red, yellow);
+    }
+
+    .programação {
+    padding: 20px;
+    border: 1px solid black;
+    background-image: linear-gradient(to top, red, yellow);
+    }
+
+    .aula12grad {
+    padding: 20px;
+    border: 1px solid black;
+    background-image: linear-gradient(45deg, red, yellow);
+    }
+
+.aulagradientes {
+    padding: 20px;
+    border: 1px solid black;
+    background-image: radial-gradient(red, yellow);
+}
+.translate {
+    padding: 20px;
+    border: 1px solid black;
+    background-color: red;
+    transform: translate(10px, 20px);
+    transform: rotate(20deg);
+    transform: rotateX(30deg);
+    transform: rotateY(30deg);
+    transform: rotateZ(30deg);
+}
+.translate:hover {
+    transform: scale(1,2);
+    background-color:blue;
+    transform: skew(20deg,10deg);
+  
+}
+
+.caixavermelha {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: solid 1px;
+}
+.caixavermelha:hover {
+    transform: skewY(25deg);
+}
+
+.caixaazul{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    border: solid 1px;
+        }
+.caixaazul:hover {
+    transform: scale(1,10);
+}
+.caixaverde {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: solid 1px;
+}
+.caixaverde:hover {
+    transform: rotate(20deg);
+    transform: rotateX(30deg);
+    transform: rotateY(30deg);
+    transform: rotateZ(30deg);
+}
+.caixaamarela {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: solid 1px;   
+}
+.caixaamarela:hover {
+    background-color: blueviolet;
+}
+.caixapreta {
+    width: 100px;
+    height: 100px;
+    transition: heigth 2s, width 1s;
+    background-color: black;
+    border: solid 1px;    
+}
+.caixapreta:hover {
+    height: 200px;
+    width: 200px;
+}
